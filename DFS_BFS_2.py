@@ -21,7 +21,7 @@ class Solution:
     DFS_list: list= [ ]
     BFS_list: list= [ ]
         
-    def invertTree(self, root: TreeNode) -> TreeNode:
+    def Search(self, root: TreeNode) -> TreeNode:
         if root is None:return 0
         
         def DFS(root):
